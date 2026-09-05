@@ -19,7 +19,7 @@ from core.llm_interface import (
 
 MODEL = "claude-sonnet-4-5"
 
-INPUT_PARQUET = "riddle_bench.parquet"
+INPUT_PARQUET = Path(__file__).resolve().parent.parent / "data" / "riddle_bench.parquet"
 
 PRE_OUTPUT_CSV = (
     "outputs/claude_logic_pre_conf.csv"

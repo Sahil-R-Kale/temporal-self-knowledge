@@ -20,7 +20,7 @@ MODEL = "claude-haiku-4-5"
 
 JUDGE_MODEL = "gpt-4.1-mini"
 
-INPUT_PARQUET = "math_qa.parquet"
+INPUT_PARQUET = Path(__file__).resolve().parent.parent / "data" / "math_qa.parquet"
 
 PRE_OUTPUT_CSV = "outputs/claude_math_pre_conf.csv"
 POST_OUTPUT_CSV = "outputs/claude_math_post_conf.csv"
