@@ -21,7 +21,7 @@ MODEL = "claude-sonnet-4-6"
 # or:
 # MODEL = "gpt-4.1"
 
-INPUT_PARQUET = "trivia_qa.parquet"
+INPUT_PARQUET = Path(__file__).resolve().parent.parent / "data" / "trivia_qa.parquet"
 
 PRE_OUTPUT_CSV = "outputs/claude_triviaqa_pre_conf.csv"
 POST_OUTPUT_CSV = "outputs/claude_triviaqa_post_conf.csv"
