@@ -17,8 +17,8 @@ We evaluate how confidence changes before and after reasoning across mathematica
 
 ```text
 .
-├── core/    # Core experimentation and evaluation pipeline
-└── data/    # Benchmark datasets used in experiments
+|-- core/    # Core experimentation and evaluation pipeline
+`-- data/    # Benchmark datasets used in experiments
 ```
 
 ### `core/`
