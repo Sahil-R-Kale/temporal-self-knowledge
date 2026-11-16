@@ -1,0 +1,7 @@
+anthropic
+google-generativeai
+openai
+pandas
+pyarrow
+python-dotenv
+tqdm
